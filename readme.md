@@ -1,15 +1,15 @@
 # Minecraft Port Forwarder Installer
 
-Script ini akan menginstall dan mengkonfigurasi port forwarder untuk server Minecraft kamu:
-- **Minecraft Java (TCP)** akan diteruskan menggunakan **rinetd**.
-- **Minecraft Bedrock (UDP)** akan diteruskan menggunakan **socat** yang dijalankan sebagai systemd service (dengan opsi `KillMode=control-group`).
+Script ini akan menginstall dan mengonfigurasi port forwarder untuk server Minecraft kamu:
+- **Minecraft Java (TCP)** akan diforward melalui **rinetd**.
+- **Minecraft Bedrock (UDP)** akan diforward melalui **iptables**.
 
 ## Prasyarat
 
 - VPS dengan distribusi Linux berbasis Debian (misalnya Debian, Ubuntu)
 - Akses root (atau gunakan `sudo`)
 - Koneksi internet
-- IP Server Tujuan (target server) untuk Minecraft
+- **IP Server Tujuan (target server)** untuk Minecraft (wajib diisi)
 
 ## Install
 
