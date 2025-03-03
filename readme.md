@@ -24,5 +24,5 @@ curl -o setup.sh https://raw.githubusercontent.com/ShirokamiRyzen/Minecraft-port
 Jalankan perintah berikut di terminal VPS kamu:
 
 ```bash
-curl -o setup.sh https://raw.githubusercontent.com/ShirokamiRyzen/Minecraft-port-Forwarder/refs/heads/main/setup.sh && chmod +x setup.sh && sudo ./setup.sh
+curl -o uninstall.sh https://raw.githubusercontent.com/ShirokamiRyzen/Minecraft-port-Forwarder/refs/heads/main/uninstall.sh && chmod +x uninstall.sh && sudo ./uninstall.sh
 ```
